@@ -1,0 +1,20 @@
+@keyframes blink {
+    0% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  .error-404 {
+    text-align: center;
+    font-size: 36px;
+    font-weight: bold;
+    color: red;
+    animation: blink 1s infinite;
+  }
+  
