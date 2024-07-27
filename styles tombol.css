@@ -1,0 +1,37 @@
+/* Gaya Dasar */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Gaya Tombol */
+.button {
+    display: inline-block;
+    padding: 2px 10px;
+    background-color: #4caf4f00;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+
+.button:hover {
+    background-color: #ff0000;
+}
+
+/* Gaya Navigasi */
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}

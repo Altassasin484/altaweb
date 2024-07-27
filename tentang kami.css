@@ -1,0 +1,44 @@
+/* Gaya Dasar */
+body {
+        background-image: url('image/1.jpg'); /* Ganti 'gambar-background.jpg' dengan URL atau path gambar latar belakang Anda */
+        background-size: cover; /* Mengatur latar belakang agar menutupi seluruh area elemen body */
+        background-position: center; /* Mengatur posisi latar belakang ke tengah-tengah */
+        background-repeat: no-repeat; /* Menghindari pengulangan gambar latar belakang */
+        background-attachment: fixed; /* Membuat latar belakang tetap pada tempatnya saat menggulir halaman */
+    
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.about, .developer {
+    flex: 1;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.about h2, .developer h3 {
+    color: #333;
+}
+
+.about p, .developer p {
+    color: #666;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
